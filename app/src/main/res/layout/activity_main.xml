@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etObtainedMarks"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Obtained Marks"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTotalMarks"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Total Marks"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculatePercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Percentage"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Percentage: "
+        android:textSize="18sp"/>
+
+</LinearLayout>
